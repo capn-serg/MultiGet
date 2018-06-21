@@ -23,4 +23,4 @@ MultiGet is a download boosting command line tool.
   ```sh
   $ ./MultiGet http://bddfcecf4927511.bwtest-aws.pravala.com/384MB.jar --output ./MyOutput --max_size 10000000
   ```
-  - After running the downloaded file will be located in the specified output directory or in ./MultiGet/<file>
+  - After running the downloaded file will be located in the specified output directory or in ./MultiGetOutput/<file>
