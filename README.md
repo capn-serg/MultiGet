@@ -1,6 +1,4 @@
 # MultiGet
-
-# MultiGet
 MultiGet is a download boosting command line tool.
 
 # Usage
