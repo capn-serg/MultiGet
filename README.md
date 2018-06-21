@@ -10,13 +10,13 @@ MultiGet is a download boosting command line tool.
   $ ./MultiGet
   [OPTIONS] url
 --output string
-    Write output to <file> instead of default
+    Write output to specific directory instead of default
 --chunk_size int
-     Size in bytes of download chunks. Defaults to 1MB.
+    Size in bytes of download chunks. Defaults to 1MB.
 --num_chunks int
-      Number of chunks to download. Defaults to 4.
+    Number of chunks to download. Defaults to 4.
 --max_size int
-        Maximum size in bytes to download. Will respect --chunk_size  or --num_chunks options. Will use --num_chunks if both are set.
+    Maximum size in bytes to download. Will respect --chunk_size  or --num_chunks options. Will use --num_chunks if both are set.
   ```
   - Add the required file url that supports HTTP Range
   - Add any additional options. 
